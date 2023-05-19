@@ -1,0 +1,27 @@
+{
+  "name": "ironsoftware",
+  "version": "1.0.0",
+  "description": "CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.\r More information can be found at the [official site](https://codeigniter.com).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compress:svg": "svgo -f public/images -o public/images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeigniter4/appstarter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeigniter4/appstarter/issues"
+  },
+  "homepage": "https://github.com/codeigniter4/appstarter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "svgo": "^3.0.2"
+  }
+}
