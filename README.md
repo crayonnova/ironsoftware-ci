@@ -21,12 +21,17 @@ To set up the development environment for the project, follow the instructions b
 4. Access the webpage in your browser at `http://localhost:8000` or the appropriate URL provided by the development server.
 
 ## Docker Setup
-
+### Requrirement 
+  Please ensure that Docker is installed and running on your system before executing these commands. [Docker](https://docs.docker.com/engine/install/)
+  
 To run the project using Docker, follow the instructions below:
 
 1. Pull the Docker image from the repository: `docker pull ghcr.io/crayonnova/ironsoftware-ci:latest`
-2. Run the Docker container and expose it on a specific port (e.g., 8080): docker run -p 8080:80 ghcr.io/crayonnova/ironsoftware-ci:latest
-3. Replace `8080` with the desired port number.
-4. Access the webpage in your browser at `http://localhost:8080` or the appropriate URL based on the port you specified.
+2. Run the Docker container and expose it on a specific port (e.g., 8000): `docker run -d -p 8000:80 ghcr.io/crayonnova/ironsoftware-ci:latest`
+3. Replace `8000` with the desired port number.
+4. Access the webpage in your browser at `http://localhost:8000` or the appropriate URL based on the port you specified.
+(or)
 
-Please ensure that Docker is installed and running on your system before executing these commands.
+You can also run using docker-compose `docker-compose up -d`
+
+
