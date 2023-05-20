@@ -6,16 +6,23 @@
 	<meta property="og:title" content="C# Library Suite for .NET | Iron Software">
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="We develop C# software libraries that suit your needs; Excel, OCR, QR, Barcode, and PDF. Free for developers.">
-	<meta property="og:image" content="https://ironsoftware.com/downloads/assets/suite/ironsuite-c-sharp-libraries.png">
+	<meta property="og:image" content="./images/logo_with_text.svg">
 	<meta property="og:url" content="https://ironsoftware.com/">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="We develop C# software libraries that suit your needs; Excel, OCR, QR, Barcode, and PDF. Free for developers.">
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+	<link rel="manifest" href="./site.webmanifest">
 	<title><?php echo $this->renderSection("title-text") ?></title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="preload" href="./fonts/gotham/gothambold-webfont.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="./fonts/gotham/gothambook-webfont.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="./fonts/gotham/gothamlight-webfont.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="./fonts/gotham/gothammedium-webfont.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<style>
 		:root {
 			--body-background-color: #2C0F29; 
@@ -38,6 +45,7 @@
 			background-color: var(--body-background-color) !important;
 			color: var(--body-color) !important;
 			scroll-behavior: smooth;
+			font-family: var(--gotham-light-font);
 		}
 
 		.color-fake-purple {
@@ -176,12 +184,5 @@
 			font-family: var(--gotham-bold);
 		}
 	</style>
-	<link rel="preload" href="fonts/gotham/gothambold-webfont.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="fonts/gotham/gothambook-webfont.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="fonts/gotham/gothamlight-webfont.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="fonts/gotham/gothammedium-webfont.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="stylesheet" href="<?php echo base_url('style.css') ?>" />
-	<link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body> 
