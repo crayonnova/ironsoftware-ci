@@ -51,9 +51,9 @@
         <div class="col-12">
           <h2>Be one of the first</h2>
           <span class="sub-header">Sign up NOW to get early access!</span>
-          <form>
+          <form action="/mail" method="POST">
             <div class="submit-button position-relative my-4">
-              <input class="submit-button__input py-4 px-4 w-100" placeholder="Enter email address" type="text" />
+              <input class="submit-button__input py-4 px-4 w-100" name="email" placeholder="Enter email address" type="text" />
               <button type="submit" class="submit-button__text px-4 text-white position-absolute end-0 border-0">Sign up now <i class="fa-solid fa-caret-right align-text-bottom"></i></button>
             </div>
           </form>
@@ -147,9 +147,9 @@
     <div class="container-fluid">
       <h3 class="text-center mb-4">Sign up to our <span class="color-fake-purple">Beta Program</span></h3>
       <div>
-        <form>
+        <form action="/mail" method="POST">
           <div class="submit-button position-relative mx-auto">
-            <input tabindex="0" class="submit-button__input py-3 px-4 w-100" placeholder="Enter email address" type="text" />
+            <input class="submit-button__input py-3 px-4 w-100" name="email" placeholder="Enter email address" type="text" />
             <button type="submit" class="submit-button__text px-4 text-white position-absolute end-0 border-0">Sign up now <i class="fa-solid fa-caret-right align-text-bottom"></i></button>
           </div>
         </form>
